@@ -1,0 +1,462 @@
+/*----------------css3动画----------------*/
+
+.trans3 {
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-ms-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+.trans5 {
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+.trans2 {
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+
+/*----------------css3动画----------------*/
+
+
+/*头部*/
+
+.head {
+	height: 43px;
+	background: white;
+	padding: 0px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	width: 100%;
+}
+
+.head3 {
+	text-align: center;
+	line-height: 43px;
+}
+
+.am-u-sm-2 {
+	padding: 0;
+	font-size: 14px;
+	color: #666666;
+}
+
+.am-u-sm-2 a {
+	color: #666666;
+}
+
+.head_img {
+	margin-top: -2px;
+	padding-right: 20px;
+}
+
+.head_img2 {
+	margin-top: -2px;
+	padding-left: 20px;
+}
+
+.hd1 a {
+	color: #333333;
+}
+
+
+/*-------------头部-----------------*/
+
+
+/*-------------评价-----------------*/
+
+.evaluate {
+	padding: 10px;
+	padding-bottom: 10px;
+}
+
+.Stars {
+	margin-top: -2.5px;
+}
+
+.evaluate_txt {
+	color: #E31436;
+	font-size: 15px;
+}
+
+.Label {
+	margin-top: 10px;
+}
+
+.Label2 {
+	padding: 7px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	border-radius: 3px;
+	border: 1px solid #E31436;
+	color: #E31436;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.Label3 {
+	padding: 7px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	border-radius: 3px;
+	border: 1px solid #333;
+	color: #333;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.Label_two {
+	margin-bottom: 10px;
+}
+
+.img1 {
+	width: 100%;
+	height: 100%;
+}
+
+.Marvellous {
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #F0F0F0;
+}
+
+.Marvellous2 {
+	color: #333333;
+	font-size: 13px;
+}
+
+
+/*-------------评价-----------------*/
+
+
+
+
+/*-------------用户评价-----------------*/
+.user{
+	padding: 10px;
+	color: #333;
+	font-size: 13px;
+}
+.Userinformation2_two{
+	margin-top: -2.5px;
+	margin-left: 6px;
+}
+.Userinformation2_two_two{
+	font-size: 12px;
+	color: #BABABA;
+}
+.Userinformation3{
+	font-size: 12px;
+	color: #BABABA;
+	margin-top: 10px;
+}
+.lb{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.remark{
+	margin-bottom: 10px;
+}
+.remark2{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #DDDDDD;
+}
+/*-------------用户评价-----------------*/
+
+
+
+
+
+/*尾部*/
+
+.register {
+	font-size: 13px;
+	color: #848689;
+}
+
+.register2 {
+	font-size: 13px;
+	color: #999999;
+}
+
+.logo {
+	font-size: 13px;
+	color: #999999;
+	margin-bottom: 30px;
+}
+
+.logo img {
+	margin-top: -5px;
+}
+
+.am-footer {
+	padding-bottom: 0;
+}
+
+.am-gotop .am-gotop-icon {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 100%;
+	font-size: 0px;
+}
+
+.db {
+	margin-top: -30px;
+	font-size: 12px;
+}
+
+
+/*尾部*/
+
+
+/*购买*/
+
+.purchase2,
+.purchase4 {
+	text-align: center;
+	padding: 0;
+	font-size: 12px;
+	color: #333333;
+	padding-top: 5px;
+	border-top: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+.purchase2 {
+	padding-top: 5px;
+}
+
+.purchase3 {
+	background-color: #E31436;
+	text-align: center;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	line-height: 30px;
+	color: white;
+	font-size: 15px;
+}
+
+.purchase5 {
+	background-color: #FF8587;
+	text-align: center;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	line-height: 30px;
+	color: white;
+	font-size: 15px;
+}
+
+.Return {
+	top: 85%;
+}
+
+._purchase {
+	position: fixed;
+	top: 92.1%;
+	z-index: 99;
+}
+
+.kx {
+	height: 49px;
+}
+
+
+/*购买*/
+
+
+/*--------弹出实验--------*/
+
+
+/*说明*/
+
+.Eject,
+.Eject2 {
+	height: 700px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	top: 50%;
+	z-index: 9999;
+	display: none;
+	border-top: 5px solid rgba(221, 221, 221, 0.6);
+}
+
+.CommodityDescription {
+	font-size: 14px;
+	background-color: #FCF9F8;
+	padding: 10px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.tax {
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+.tax_txt {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.tax_txt2 {
+	font-size: 12px;
+	color: #999999;
+}
+
+.tax_img {
+	padding-left: 15px;
+	padding-right: 5px;
+}
+
+
+/*说明*/
+
+
+/*--------弹出实验--------*/
+
+
+/*城市选择*/
+
+.address .am-form .am-form-group .ps {
+	background-color: white;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	border-radius: 0;
+	font-size: 13px;
+}
+
+.ps2 {
+	padding: 0;
+	margin: 0;
+	margin-top: -7px;
+	box-shadow: 0;
+	width: 75%;
+}
+
+.ps3 {
+	margin: 0;
+}
+
+
+/*城市选择*/
+
+
+/*侧边栏*/
+
+.sidebar {
+	background-color: white;
+	border-left: 0;
+	width: 75%;
+}
+
+.am-offcanvas-bar:after {
+	background: white;
+}
+
+.sidebar5 {
+	text-align: center;
+	padding: 0;
+	font-size: 18px;
+	color: #333333;
+}
+
+.sidebar2 {
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.Specifications {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.Specifications3 {
+	font-size: 13px;
+}
+
+.Specifications_txt {
+	font-size: 12px;
+	color: #333333;
+}
+
+.Specifications_txt2 {
+	font-size: 16px;
+	color: #DA4969;
+}
+
+.Number_one {
+	margin-top: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.Number_one_txt {
+	font-size: 13px;
+	color: #999999;
+	margin-top: 2px;
+	margin-right: 10px;
+}
+
+.Number_one_one,
+.Number_one_three {
+	border: 1px solid #999999;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.Number_one_one {
+	border-right: 0;
+}
+
+.Number_one_three {
+	border-left: 0;
+}
+
+.Number_one_two {
+	text-align: center;
+	width: 40px;
+}
+
+.btn_sp {
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.btn_sp2 {
+	width: 100px;
+	height: 35px;
+	font-size: 14px;
+	border-radius: 3px;
+	background-color: #FF8587;
+	border-color: #FF8587;
+}
+
+.btn_sp3 {
+	width: 100px;
+	height: 35px;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+
+/*侧边栏*/

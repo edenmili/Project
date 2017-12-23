@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+/*公共类*/
+
+.body1 {
+	background-color: #fbfbfb;
+}
+
+.trans3 {
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-ms-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+.trans5 {
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+.trans4 {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.trans2 {
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.relative {
+	position: relative;
+}
+
+.container {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+
+/*公共类*/
+
+
+/*标题*/
+
+._bt {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: white;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	z-index: 99999999999999;
+}
+
+.bt_one {
+	margin-top: 90px;
+}
+
+.bt_one_two {
+	height: 32px;
+}
+
+.nav_a {
+	margin: 0 0px 0px 46px;
+	margin-top: 5px;
+	margin-bottom: 32.6px;
+}
+
+.nav_b {
+	margin-top: 5px;
+	margin-bottom: 32.6px;
+	font-family: 微软雅黑;
+}
+
+.nav_b a:hover {
+	text-decoration: none;
+	color: #1E1E1E;
+}
+
+.nav_a a {
+	font-size: 15px;
+	color: #8e8e8e;
+	font-family: 微软雅黑;
+}
+
+.nav_a a:hover {
+	font-size: 15px;
+	color: #1E1E1E;
+	text-decoration: none;
+}
+
+.nav_b a {
+	font-size: 15px;
+	color: #1E1E1E;
+}
+
+.nav_a a i {
+	font-size: 15px;
+	margin-left: 4px;
+	color: #9E9E9E;
+}
+.nav_c{
+	font-size: 10px;
+	margin-top: 5px;
+	margin-right: 40px;
+}
+.nav .nav_c a{
+	font-size: 15px;
+	color: #8e8e8e;
+	text-decoration: none;
+}
+.nav .nav_c:hover a{
+	font-size: 15px;
+	color: #1E1E1E;
+	text-decoration: none;
+}
+/*标题*/
+
+.yyy {
+	height: 230px;
+}
+._yyy{
+	 margin-bottom: 100px;
+}
+
+
+._bot{
+	background-color: white;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.20);
+}
+.bot{
+	margin-top: 150px;
+	height: 100px;
+	line-height: 100px;
+	
+}
+
+
+.xian2{
+	height: 0.5px;
+	background: gainsboro;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.dt2{
+	margin-left: 50px;
+}
+
+.dt2_1{
+	font-size: 20px;
+	color: #404040;
+	margin-bottom: 10px;
+}
+.dt2_2{
+	font-size: 13.5px;
+	color: #9e9c9c;
+	margin-bottom: 15px;
+}
+.dt2_3{
+	margin-top: 10px;
+}

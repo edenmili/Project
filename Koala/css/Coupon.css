@@ -1,0 +1,111 @@
+
+/*头部*/
+
+.head {
+	height: 43px;
+	background: white;
+	padding: 0px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+	width: 100%;
+}
+
+.head3 {
+	text-align: center;
+	line-height: 43px;
+}
+
+.am-u-sm-2 {
+	padding: 0;
+	font-size: 14px;
+	color: #666666;
+}
+
+.am-u-sm-2 a {
+	color: #666666;
+}
+
+.head_img {
+	margin-top: -2px;
+	padding-right: 20px;
+}
+
+.head_img2 {
+	margin-top: -2px;
+}
+.hd1{
+	padding-left: 35px;
+}
+.hd1 a {
+	color: #333333;
+	font-size: 18px;
+}
+
+
+/*-------------头部-----------------*/
+
+
+
+/*优惠卷*/
+.Coupon2{
+	padding-bottom: 10px;
+}
+.am-tabs{
+	text-align: center;
+}
+
+.am-tabs-bd .xxb{
+	padding: 10px;
+	border: 0;
+}
+.xx1{
+	margin: 0;
+}
+/*优惠卷*/
+
+
+
+
+
+
+
+/*尾部*/
+
+.register {
+	font-size: 13px;
+	color: #848689;
+}
+
+.register2 {
+	font-size: 13px;
+	color: #999999;
+}
+
+.logo {
+	font-size: 13px;
+	color: #999999;
+	margin-bottom: 30px;
+}
+
+.logo img {
+	margin-top: -5px;
+}
+
+.am-footer {
+	padding-bottom: 0;
+}
+
+.am-gotop .am-gotop-icon {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 100%;
+	font-size: 0px;
+}
+
+.db {
+	margin-top: -30px;
+	font-size: 12px;
+}
+
+.wb{
+	margin-top: 20px;
+}
+/*尾部*/

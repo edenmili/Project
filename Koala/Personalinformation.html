@@ -1,0 +1,170 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>网易考拉海购-个人信息</title>
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="css/Personalinformation.css" />
+</head>
+
+<body class="body1">
+    <!------------------------------头部------------------------------>
+    <div class="head">
+        <div class="am-g head3">
+            <div class="am-u-sm-2 head_img">
+                <a href="PersonalCenter.html"><img src="img/Commoditydetails/mini/mini05.png" style="width: 7px; height: 13px;"></a>
+            </div>
+            <div class="am-u-sm-7 hd1" id="hd1">
+                <a href="#kg">个人信息</a>
+            </div>
+            <div class="am-u-sm-3 head_img2">
+                <a href="index.html"></a> &nbsp;&nbsp;&nbsp;
+                <a href="ShoppingCart.html"></a>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------头部完成---------------------------->
+    <!-----------------------------个人信息---------------------------->
+    <form>
+        <div id="infoBox">
+        </div>
+        <!--账号管理-->
+        <div class="Headportrait02">
+            <div class="Headportrait4 am-fl"><b>账号管理</b></div>
+            <div class="Headportrait5 am-fr">其他登录方式<img src="img/PersonalCenter/002.png" class="img2" style="width: 20px; height: 25px;"></div>
+            <div class="am-cf"></div>
+        </div>
+        <!--账号管理-->
+        <!--我的手机号-->
+        <div class="Headportrait02">
+            <div class="Headportrait4 am-fl"><b>我的手机号</b></div>
+            <div class="Headportrait5 am-fr">176****6186<img src="img/PersonalCenter/002.png" class="img2" style="width: 20px; height: 25px;"></div>
+            <div class="am-cf"></div>
+        </div>
+        <!--我的手机号-->
+        <!--个性签名-->
+        <div class="Headportrait03">
+            <div class="Headportrait4 am-fl"><b>个性签名</b></div>
+            <div class="Headportrait5 am-fr">笙歌归院落，灯火下楼台<img src="img/PersonalCenter/002.png" class="img2" style="width: 20px; height: 25px;"></div>
+            <div class="am-cf"></div>
+        </div>
+        <!--个性签名-->
+        <!--我的实名认证-->
+        <div class="Headportrait02">
+            <div class="Headportrait4 am-fl"><b>我的实名认证</b></div>
+            <div class="Headportrait5 am-fr"><img src="img/PersonalCenter/002.png" class="img2" style="width: 20px; height: 25px;"></div>
+            <div class="am-cf"></div>
+        </div>
+        <!--我的实名认证-->
+        <!--我的收货地址-->
+        <a href="addaddress.html">
+        <div class="Headportrait03">
+            <div class="Headportrait4 am-fl"><b>我的收货地址</b></div>
+            <div class="Headportrait5 am-fr"><img src="img/PersonalCenter/002.png" class="img2" style="width: 20px; height: 25px;"></div>
+            <div class="am-cf"></div>
+        </div>
+        </a>
+        <!--我的收货地址-->
+        <!--感兴趣的类别-->
+        <div class="Headportrait04">
+            <div class="Headportrait4 am-fl"><b>感兴趣的类别</b></div>
+            <div class="Headportrait5 am-fr"><img src="img/PersonalCenter/002.png" class="img2" style="width: 20px; height: 25px;"></div>
+            <div class="am-cf"></div>
+        </div>
+        <!-- 隐藏数据 -->
+        <input type="hidden" name="account" id="" value="">
+        <input type="button" id="saveBtn" value="保存" name="">
+    </form>
+    <!--感兴趣的类别-->
+    <!---------------------------个人信息完成-------------------------->
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/template-web.js"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 8 ]>
+        <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+        <script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+        <![endif]-->
+    <script src="assets/js/amazeui.min.js"></script>
+    <script id="tpl-user" type="text/html">
+        <!--头像-->
+        <div class="Headportrait">
+            <div class="Headportrait2 am-fl"><img src="{{avatar}}" class="am-circle" style="width: 55px; height: 55px;"></div>
+            <div class="Headportrait3 am-fr">修改头像<img src="img/PersonalCenter/002.png" class="img2" style="width: 20px; height: 25px;"></div>
+            <div class="am-cf"></div>
+        </div>
+        <!--头像-->
+        <!--昵称-->
+        <div class="Headportrait02">
+            <div class="Headportrait4 am-fl"><b>昵称</b></div>
+            <div class="Headportrait5 am-fr">
+                <input type="" name="nickname" value="{{nickname}}"><img src="img/PersonalCenter/002.png" class="img2" style="width: 20px; height: 25px;"></div>
+            <div class="am-cf"></div>
+        </div>
+        <!--昵称-->
+        <!--性别-->
+        <div class="Headportrait02" data-am-modal="{target: '#my-alert'}">
+            <div class="Headportrait4 am-fl"><b>性别</b></div>
+            <div class="Headportrait5 am-fr">男<img src="img/PersonalCenter/002.png" class="img2" style="width: 20px; height: 25px;"></div>
+            <div class="am-cf"></div>
+        </div>
+        <!--性别-->
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // 赋值input[type=hidden]
+//      var account = sessionStorage.account;
+//      if (!account) {
+//          alert("暂无账户信息，请登录！");
+//          return;
+//      }
+
+        $("#account").val(sessionStorage.account);
+        $("#saveBtn").click(function() {
+            var data = $("form").serialize();
+            $.post("/users/updateInfo/", data, function(result) {
+                if (result.status) {
+                    location.href = "my.html";
+                } else {
+                    alert(result.msg);
+                }
+            });
+        });
+
+
+
+        $.ajax({
+            type: "get",
+            url: "/users/getInfo/",
+            async: true,
+            data: {
+                "account": sessionStorage.account
+            },
+            success: function(result) {
+                if (result.status) {
+                    var html = template("tpl-user", result.data);
+                    $("#infoBox").html(html);
+                }
+
+
+            }
+        });
+
+
+    });
+    </script>
+</body>
+
+</html>

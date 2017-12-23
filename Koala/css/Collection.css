@@ -1,0 +1,259 @@
+
+/*头部*/
+
+.head {
+	height: 43px;
+	background: white;
+	padding: 0px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+	width: 100%;
+}
+
+.head3 {
+	text-align: center;
+	line-height: 43px;
+}
+
+.am-u-sm-2 {
+	padding: 0;
+	font-size: 14px;
+	color: #666666;
+}
+
+.am-u-sm-2 a {
+	color: #666666;
+}
+
+.head_img {
+	margin-top: -2px;
+	padding-right: 20px;
+}
+
+.head_img2 {
+	margin-top: -2px;
+}
+.hd1{
+	padding-left: 35px;
+}
+.hd1 a {
+	color: #333333;
+	font-size: 18px;
+}
+
+
+/*-------------头部-----------------*/
+
+
+
+/*精选*/
+
+.dh3 {
+	border: 1px solid #EAEBED;
+	margin-bottom: 290px;
+}
+
+.jx {
+	border: 0;
+	color: #333333;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.am-thumbnail img {
+	width: 90px;
+}
+
+.am-g .am-u-sm-3 {
+	padding: 0;
+}
+
+.Discount {
+	border: 1px solid #D22147;
+	color: #D22147;
+	padding: 2px;
+	font-size: 10px;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+
+
+/*精选*/
+
+
+/*手机抢购*/
+
+.Panicbuying {
+	margin-top: 20px;
+	font-size: 16px;
+	color: #2F2F2F;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.Panicbuying2 {
+	margin-top: 0px;
+	font-size: 16px;
+	color: #2F2F2F;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.Panicbuying3 {
+	margin-top: 30px;
+	font-size: 16px;
+	color: #2F2F2F;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.Panicbuying img,
+.Panicbuying2 img,
+.Panicbuying3 img {
+	margin-top: -4px;
+}
+
+.Newpeople_btn {
+	top: 55%;
+	left: 33%;
+	height: 30px;
+	width: 120px;
+	padding: 5px;
+	line-height: 16px;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 20px;
+	color: white;
+	font-size: 14px;
+	position: absolute;
+}
+
+.time-item {
+	top: 30%;
+	left: 15%;
+	font-size: 1.4em;
+	color: white;
+	position: absolute;
+}
+
+.time-item2 {
+	top: 30%;
+	left: 19%;
+	font-size: 1.4em;
+	color: white;
+	position: absolute;
+}
+
+.san {
+	font-size: 36px;
+	top: 83%;
+	left: 20px;
+	color: white;
+	position: absolute;
+}
+
+.qg {
+	overflow: hidden;
+}
+
+.am-thumbnail .dh_img {
+	width: 100%;
+}
+
+.dh2 {
+	padding: 0;
+}
+
+.am-g .am-u-sm-4 .am-thumbnail .js {
+	width: 119px;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-size: 13px;
+}
+
+.am-text-truncate {
+	word-wrap: normal;
+	/* for IE */
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height: -5px;
+}
+
+.Price {
+	color: #D22147;
+	font-size: 14px;
+}
+
+.am-u-sm-6 .am-thumbnail .Price .Price2 {
+	font-size: 12px;
+	color: #848689;
+}
+
+.am-u-sm-4 .am-thumbnail .Price .Price2 {
+	font-size: 12px;
+	color: #848689;
+}
+
+
+/*手机抢购*/
+
+
+/*热门市场*/
+
+.hot_omg {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*热门市场*/
+
+
+
+
+
+
+
+/*尾部*/
+
+.register {
+	font-size: 13px;
+	color: #848689;
+}
+
+.register2 {
+	font-size: 13px;
+	color: #999999;
+}
+
+.logo {
+	font-size: 13px;
+	color: #999999;
+	margin-bottom: 30px;
+}
+
+.logo img {
+	margin-top: -5px;
+}
+
+.am-footer {
+	padding-bottom: 0;
+}
+
+.am-gotop .am-gotop-icon {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 100%;
+	font-size: 0px;
+}
+
+.db {
+	margin-top: -30px;
+	font-size: 12px;
+}
+
+.wb{
+	margin-top: 20px;
+}
+/*尾部*/

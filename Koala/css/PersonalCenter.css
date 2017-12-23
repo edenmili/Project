@@ -1,0 +1,235 @@
+
+/*头部*/
+
+.head {
+	height: 43px;
+	background: white;
+	padding: 0px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	width: 100%;
+}
+
+.head3 {
+	text-align: center;
+	line-height: 43px;
+}
+
+.am-u-sm-2 {
+	padding: 0;
+	font-size: 14px;
+	color: #666666;
+}
+
+.am-u-sm-2 a {
+	color: #666666;
+}
+
+.head_img {
+	margin-top: -2px;
+	padding-right: 20px;
+}
+
+.head_img2 {
+	margin-top: -2px;
+}
+.hd1{
+	padding-left: 35px;
+}
+.hd1 a {
+	color: #333333;
+	font-size: 18px;
+}
+
+
+/*-------------头部-----------------*/
+
+
+
+
+
+/*背景*/
+.bg{
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	background: url(../img/PersonalCenter/001.png);
+}
+.bg2{
+	text-align: center;
+}
+.bg2_two{
+	color: #333333;
+	font-size: 20px;
+	padding-left: 10px;
+}
+/*背景*/
+
+/*我的订单*/
+.freight{
+	padding: 10px;
+
+}
+.freight{
+	color: #333333;
+
+}
+
+.address4{
+	color: #999;
+}
+.Line4{
+	margin: 0;
+	background-color: #F0F0F0;
+	border-color: #F0F0F0;
+}
+.detailed,
+.detailed a{
+	text-align: center;
+	font-size: 13px;
+	color: #333333;
+	padding-bottom: 20px;
+	border-bottom: 10px solid #F0F0F0;
+	padding-top: 20px;
+}
+
+/*我的订单*/
+
+
+
+
+
+
+/*尾部*/
+
+.register {
+	font-size: 13px;
+	color: #848689;
+}
+
+.register2 {
+	font-size: 13px;
+	color: #999999;
+}
+
+.logo {
+	font-size: 13px;
+	color: #999999;
+	margin-bottom: 30px;
+}
+
+.logo img {
+	margin-top: -5px;
+}
+
+.am-footer {
+	padding-bottom: 0;
+}
+
+.am-gotop .am-gotop-icon {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 100%;
+	font-size: 0px;
+}
+
+.db {
+	margin-top: -30px;
+	font-size: 12px;
+}
+
+
+/*尾部*/
+
+/*搜索*/
+._search{
+	height: 800px;
+	width: 100%;
+	background-color: white;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.zuo{
+	margin-top: 5px;
+	margin-right: 5px;
+	color: #999999;
+}
+.am-g .am-u-lg-6 .am-input-group .ipt2 {
+	background-color: #EAEBED;
+	border: 0;
+	height: 30px;
+	font-size: 13px;
+	border-radius: 5px;
+	margin-top: -5px;
+	width: 82%;
+	margin-right: 10px;
+}
+.txt3 a{
+	color: #999999;
+}
+.txt4{
+	margin-top: 20px;
+	margin-left: 10px;
+	color: dimgrey;
+}
+
+.hot2{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.ipt3{
+	border: 1px solid #FF8587;
+	background-color: white;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #FF8587;
+	font-size: 12px;
+	border-radius: 3px;
+	margin-right: 5px;
+	margin-bottom: 8px;
+}
+.ipt4{
+	border: 1px solid #999999;
+	background-color: white;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #999999;
+	font-size: 12px;
+	border-radius: 3px;
+	margin-right: 5px;
+	margin-bottom: 8px;
+}
+/*搜索*/
+
+/*自适应问题暂时解决处*/
+
+@media only screen and (min-width: 367px) and (max-width: 415px) {
+	.time-item {
+		top: 30%;
+		left: 14%;
+		font-size: 1.6em;
+		color: white;
+		position: absolute;
+	}
+	.Newpeople_btn {
+		top: 55%;
+		left: 36%;
+		height: 30px;
+		width: 120px;
+		padding: 5px;
+		line-height: 16px;
+		text-align: center;
+		border: 1px solid white;
+		border-radius: 20px;
+		color: white;
+		font-size: 14px;
+		position: absolute;
+	}
+}
+
+
+/*自适应问题暂时解决处*/

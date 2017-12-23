@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/*公共类*/
+
+.body1 {
+	background-color: #F7F7F7;
+}
+
+.trans3 {
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-ms-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+.trans5 {
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+.trans4 {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.trans2 {
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.relative {
+	position: relative;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+/*公共类*/
+
+
+/*标题*/
+
+._bt {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: white;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	z-index: 99999999999999;
+}
+
+.bt_one {
+	margin-top: 90px;
+}
+
+.bt_one_two {
+	height: 32px;
+}
+
+.nav_a {
+	margin: 0 0px 0px 46px;
+	margin-top: 5px;
+	margin-bottom: 32.6px;
+}
+
+.nav_b {
+	margin-top: 5px;
+	margin-bottom: 32.6px;
+	font-family: 微软雅黑;
+}
+
+.nav_b a:hover {
+	text-decoration: none;
+	color: #1E1E1E;
+}
+
+.nav_a a {
+	font-size: 15px;
+	color: #8e8e8e;
+	font-family: 微软雅黑;
+}
+
+.nav_a a:hover {
+	font-size: 15px;
+	color: #1E1E1E;
+	text-decoration: none;
+}
+
+.nav_b a {
+	font-size: 15px;
+	color: #1E1E1E;
+}
+
+.nav_a a i {
+	font-size: 15px;
+	margin-left: 4px;
+	color: #9E9E9E;
+}
+.nav_c{
+	font-size: 10px;
+	margin-top: 5px;
+	margin-right: 40px;
+}
+.nav .nav_c a{
+	font-size: 15px;
+	color: #8e8e8e;
+	text-decoration: none;
+}
+.nav .nav_c:hover a{
+	font-size: 15px;
+	color: #1E1E1E;
+	text-decoration: none;
+}
+/*标题*/
+
+.yyy {
+	height: 230px;
+}
+
+.dt2{
+	margin-top: 80px;
+}
+
+.dt2_1{
+	font-size: 15px;
+	color: #404040;
+}
+.dt2_2{
+	font-size: 13.5px;
+	color: #CCCCCC;
+	margin-bottom: 15px;
+}
+
+._dt3{
+	margin-left: 150px;
+	width: 700px;
+	
+}
+
+.dt3_1_one{
+	font-size: 15px;
+	color: #5C5C5C;
+	margin-bottom: 20px;
+}
+.dt3_1_two{
+	font-size: 12.7px;
+}
+.xian{
+	height: 1px;
+	background-color: #CCCCCC;
+	width: 700px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.xian2{
+	height: 0.5px;
+	background-color: #CCCCCC;
+	width: 700px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+
+._bot{
+	background-color: white;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.20);
+}
+.bot{
+	margin-top: 150px;
+	height: 100px;
+	line-height: 100px;
+	
+}
+
+
+
+
+.dt3_1{
+    z-index: 113;
+    transform: translate3d(0, 0, 150px);
+    -ms-transform: translate3d(0, 150px, 0);
+    -webkit-transform: translate3d(0, 150px, 0);
+    -o-transform: translate3d(0, 150px, 0);
+    -moz-transform: translate3d(0, 150px, 0);
+    opacity: 0;
+    transition: transform 1s ease 0s, opacity 1s ease 0s;
+    -moz-transition: -moz-transform 1s ease 0s, opacity 1s ease 0s;
+    -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s;
+    -o-transition: -o-transform 1s ease 0s, opacity 1s ease 0s;
+    -ms-transition: -ms-transform 1s ease 0s, opacity 1s ease 0s;
+}
+.dt3_2{
+   z-index: 113;
+    transform: translate3d(400px, 0, 0);
+    -ms-transform: translate3d(400px, 0, 0);
+    -webkit-transform: translate3d(400px, 0, 0);
+    -o-transform: translate3d(400px, 0, 0);
+    -moz-transform: translate3d(400px, 0, 0);
+    opacity: 0;
+    transition: transform 1s ease 0s, opacity 1s ease 0s;
+    -moz-transition: -moz-transform 1s ease 0s, opacity 1s ease 0s;
+    -webkit-transition: -webkit-transform 1s ease 0s, opacity 1s ease 0s;
+    -o-transition: -o-transform 1s ease 0s, opacity 1s ease 0s;
+    -ms-transition: -ms-transform 1s ease 0s, opacity 1s ease 0s;
+}
+.dt3_3{
+    z-index: 113;
+    transform: translate3d(50px, 100px, 0);
+    opacity: 0;
+    transition: transform 1.2s ease 0s, opacity 1s ease 0s;
+   
+}

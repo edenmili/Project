@@ -1,0 +1,80 @@
+/*头部*/
+.hd{
+	padding: 100px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.hd2{
+}
+.hd2_two{
+	padding-top: 5px;
+	text-align: center;
+	font-size: 18px;
+	color: #333333;
+}
+.hd2_one{
+	padding-top: 10px;
+	text-align: left;
+	font-size: 12px;
+}
+.hd2_one a{
+	color: #333333;
+}
+.am-form .am-form-group .btn2{
+	padding-top: 13px;
+	padding-bottom: 13px;
+	border-radius: 3px;
+}
+.am-form{
+	text-align: center;
+}
+.btn3{
+	padding-top: 13px;
+	padding-bottom: 13px;
+	border-radius: 3px;
+	width: 100%;
+	background-color: #000000;
+	color: white;
+	border: 0;
+}
+.fie{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.am-btn-secondary:focus,
+.am-btn-secondary:hover {
+	background-color: #000
+}
+
+.am-btn-secondary.am-active,
+.am-btn-secondary:active,
+.am-dropdown.am-active .am-btn-secondary.am-dropdown-toggle {
+	background-image: none;
+	background-color: #000
+}
+.wj,
+.wj a{
+	padding: 5px;
+	text-align: right;
+	font-size: 12px;
+	color: #999999;
+}
+.am-form .fie .txt7{
+	width: 200px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+.am-form .fie .txt8{
+	width: 110px;
+	border: 1px solid #999999;
+	background-color: white;
+	padding: 13px;
+	padding-top: 11.5px;
+	padding-bottom: 11.5px;
+	border-radius: 3px;
+}
+/*头部*/
+
+

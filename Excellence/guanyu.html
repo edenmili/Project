@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/guanyu.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="icon/demo.css">
+		<link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body class="body1">
+		<!--标题-->
+		<div class="_bt">
+			<div class="bt container">
+				<div class="bt_one trans2">
+					<a href="index.html"><img class="bt_one_two" src="img/logo.png"></a>
+					<ul class="nav fr">
+						<li class="nav_c fl">
+							<a class="trans2" href="index.html">首页</a>
+						</li>
+						<li class="nav_c fl">
+							<a class="trans2" href="case.html">案例</a>
+						</li>
+						<li class="nav_b fl">
+							<a class="trans2" href="guanyu.html">关于<i class="iconfont icon-fangxiangxia"></i></a>
+						</li>
+						<li class="nav_a fl">
+							<a class="trans2" href="guandian.html">观点</a>
+						</li>
+						<li class="nav_a fl">
+							<a class="trans2" href="lianxi.html">联系</a>
+						</li>
+						<div class="clear"></div>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!--标题完成-->
+		<div class="yyy"></div>
+
+		<div class="bg container">
+			<img src="img/4005.jpg">
+		</div>
+
+		<div class="dt2 container">
+			<div class="_dt2 fl">
+				<div class="dt2_1">网站建设文化传播有限公司</div>
+				<div class="dt2_2">Website construction culture Communication Co., Ltd.</div>
+			</div>
+			<div class="_dt3 fl">
+				<div class="dt3_1">
+					<div class="dt3_1_one">关于我们</div>
+					<div class="dt3_1_two">Skidmore, Owings & Merrill LLP是世界上最大、最具影响力的建筑、室内设计、工程和城市规划事务所之一。自1936年创立以来,本事务所已在逾50个国家完成了10,000多个项目。我们的声誉源自我们缔造的标志性建筑，以及对卓越设计创新和可持续性的不懈追求。</div>
+					<div class="xian"></div>
+				</div>
+				<div class="dt3_2">
+					<div class="dt3_1_one">我们的工作方式</div>
+					<div class="dt3_1_two">合作实践的主导动力，因为我们认为最佳的结果源自与所有利益相关者的持续沟通。我们将客户视为合作伙伴，并将每个项目看作一项独特的挑战。我们的综合事务所汇聚了建筑、内饰、工程和城市规划领域的专家，共同打造创新的解决方案。</div>
+					<div class="xian2"></div>
+				</div>
+				<div class="dt3_3">
+					<div class="dt3_1_one">我们的杰作</div>
+					<div class="dt3_1_two">我们的作品集包括20世纪和21世纪最重要的建筑设计，从尖端的研究设施和启发性的学习中心，到摩天大厦以及充满活力的都市地区应有尽有。我们已荣获近2,000个奖项，并且是唯一一家两度荣获美国建筑师协会建筑事务所奖的事务所。</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+
+		<!--尾部-->
+		<div class="_bot">
+			<div class="bot container">COPYRIGHT (©) 2017 mo004_813 平面设计类型网站</div>
+		</div>
+		<!--尾部-->
+
+	</body>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/swiper-3.4.2.jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sliphover.min.js"></script>
+	<script type="text/javascript">
+		
+		
+		
+		//滑动距离大于一定数值时  显示或隐藏  彩蛋导航栏
+		$(document).ready(function() {
+			$(window).scroll(function() {
+				if($(window).scrollTop() > 50) {
+					$(".bt_one").css("margin-top", "25px");
+				} else {
+					$(window).scrollTop() < 50
+					$(".bt_one").css("margin-top", "90px");
+				}
+			});
+		});
+		
+		
+		(function(win) {
+			$(function() {
+				$(win).scroll(function() {
+					// 浏览器窗口的高度 
+					var windowPageYOffset = win.pageYOffset;
+					// 浏览器窗口的高度 + 页面滚动的距离    
+					var windowPageYOffsetAddHeight = windowPageYOffset + window.innerHeight;
+					// 该值越小，越早触发效果，自己随便设置
+					var sensitivity = 0;
+
+					var imgOffsetTop = $(".dt3_1").offset().top;
+					if(imgOffsetTop >= windowPageYOffset && imgOffsetTop < windowPageYOffsetAddHeight + sensitivity) {
+						// 达到一定位置，触发效果，透明度变为1
+						$(".dt3_1").css({
+							"transform": "translate3d(0, 0, 0)",
+							"-ms-transform": "translate3d(0, 0, 0)",
+							"-o-transform": "translate3d(0, 0, 0)",
+							"-webkit-transform": "translate3d(0, 0, 0)",
+							"-moz-transform": "translate3d(0, 0, 0)",
+							"opacity": 1
+						});
+					}
+				})
+			})
+			$(function() {
+				$(win).scroll(function() {
+					// 浏览器窗口的高度 
+					var windowPageYOffset = win.pageYOffset;
+					// 浏览器窗口的高度 + 页面滚动的距离    
+					var windowPageYOffsetAddHeight = windowPageYOffset + window.innerHeight;
+					// 该值越小，越早触发效果，自己随便设置
+					var sensitivity = 0;
+
+					var imgOffsetTop = $(".dt3_2").offset().top;
+					if(imgOffsetTop >= windowPageYOffset && imgOffsetTop < windowPageYOffsetAddHeight + sensitivity) {
+						// 达到一定位置，触发效果，透明度变为1
+						$(".dt3_2").css({
+							"transform": "translate3d(0, 0, 0)",
+							"-ms-transform": "translate3d(0, 0, 0)",
+							"-o-transform": "translate3d(0, 0, 0)",
+							"-webkit-transform": "translate3d(0, 0, 0)",
+							"-moz-transform": "translate3d(0, 0, 0)",
+							"opacity": 1
+						});
+					}
+				})
+			})
+			$(function() {
+				$(win).scroll(function() {
+					// 浏览器窗口的高度 
+					var windowPageYOffset = win.pageYOffset;
+					// 浏览器窗口的高度 + 页面滚动的距离    
+					var windowPageYOffsetAddHeight = windowPageYOffset + window.innerHeight;
+					// 该值越小，越早触发效果，自己随便设置
+					var sensitivity = 0;
+
+					var imgOffsetTop = $(".dt3_3").offset().top;
+					if(imgOffsetTop >= windowPageYOffset && imgOffsetTop < windowPageYOffsetAddHeight + sensitivity) {
+						// 达到一定位置，触发效果，透明度变为1
+						$(".dt3_3").css({
+							"transform": "translate3d(0, 0, 0)",
+							"-ms-transform": "translate3d(0, 0, 0)",
+							"-o-transform": "translate3d(0, 0, 0)",
+							"-webkit-transform": "translate3d(0, 0, 0)",
+							"-moz-transform": "translate3d(0, 0, 0)",
+							"opacity": 1
+						});
+					}
+				})
+			})
+
+		}(window))
+	</script>
+
+</html>

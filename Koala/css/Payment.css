@@ -1,0 +1,157 @@
+/*头部*/
+
+.head {
+	height: 43px;
+	background: white;
+	padding: 0px;
+	box-shadow: 0 0 1px #dcdcdc;
+	width: 100%;
+}
+
+.head3 {
+	text-align: center;
+	line-height: 43px;
+}
+
+.am-u-sm-2 {
+	padding: 0;
+	font-size: 14px;
+	color: #666666;
+}
+
+.am-u-sm-2 a {
+	color: #666666;
+}
+
+.head_img {
+	margin-top: -2px;
+	padding-right: 20px;
+}
+
+.head_img2 {
+	margin-top: -2px;
+}
+
+.hd1 {
+	padding-left: 35px;
+}
+
+.hd1 a {
+	color: #333333;
+	font-size: 18px;
+}
+
+
+/*-------------头部-----------------*/
+
+
+/*限时*/
+
+.Timelimit {
+	text-align: center;
+	color: #333333;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.Timelimit_txt {
+	font-size: 18px;
+}
+
+.Timelimit_img {
+	margin-top: -5px;
+}
+.time-item span{
+	font-size: 14px;
+}
+.time-item{
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #CBCBCB;
+}
+.time-time-item{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.Amountofmoney{
+	text-align: center;
+	padding: 5px;
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+.Amountofmoney_txt{
+	color: #D22147;
+	font-size: 18px;
+}
+.Timelimit2{
+	border-bottom: 10px solid #F2F0F0;
+}
+/*限时*/
+
+
+/*付款方式*/
+.mode2_one{
+	padding: 12px;
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 14px;
+}
+.Immediatepayment{
+	margin-top: 140px;
+}
+.Immediatepayment2{
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 10px;
+}
+.am-btn-danger{
+	width: 100%;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	border-radius: 6px;
+}
+/*付款方式*/
+
+
+/*尾部*/
+
+.register {
+	font-size: 13px;
+	color: #848689;
+}
+
+.register2 {
+	font-size: 13px;
+	color: #999999;
+}
+
+.logo {
+	font-size: 13px;
+	color: #999999;
+	margin-bottom: 30px;
+}
+
+.logo img {
+	margin-top: -5px;
+}
+
+.am-footer {
+	padding-bottom: 0;
+}
+
+.am-gotop .am-gotop-icon {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 100%;
+	font-size: 0px;
+}
+
+.db {
+	margin-top: -30px;
+	font-size: 12px;
+}
+
+.wb {
+	margin-top: 20px;
+}
+
+
+/*尾部*/
